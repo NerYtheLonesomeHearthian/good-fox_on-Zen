@@ -17,7 +17,7 @@ For <ins>Windows</ins>, if you have not installed or used these kinds of scripts
 
 And I think that should be it? (Please reach out to me if this doesn't work!)
 
-For <ins>non-Windows</ins>, you should follow the link above to get the right path!
+For <ins>non-Windows</ins>, you should follow the link above to get the right paths and locations for everything!
 
 And if you've previously had other scripts like this installed, you probably (hopefully) know better than me, and I hope you can figure out how to make multiple of them work simultaneously.
 
