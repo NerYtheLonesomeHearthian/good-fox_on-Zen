@@ -1,7 +1,7 @@
 # Good Girl
 This is an autoconfig script for Firefox that adds a silly settings panel with an equally silly effect.
 
-<img width="656" height="277" alt="Screenshot of the Firefox Settings tab, with a message reading 'Firefox is your default browser. Good girl.'" src="https://github.com/user-attachments/assets/e1edcaf9-7baa-4953-8b13-bdf24ec569d5" />
+<img width="656" height="277" alt="Screenshot of the Firefox Browser Settings tab, with a message reading 'Firefox is your default browser. Good girl.'" src="https://github.com/user-attachments/assets/e1edcaf9-7baa-4953-8b13-bdf24ec569d5" />
 
 (Other gender affirmation options are also available in the brand new [Pronouns dropdown](#preview) in Settings)
 <hr>
@@ -36,4 +36,6 @@ You can change where the Pronouns are located in settings, you can change what p
 And a little extra!
 
 ## Preview
-<img width="750" alt="GIF showing off the Pronouns dropdown, and how it affects the Default Browser message when interacted with" src="https://i.imgur.com/dnqoYt0.gif" />
+<img width="632" height="222" alt="Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
+<hr>
+<img width="750" alt="GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
