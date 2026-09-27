@@ -50,19 +50,21 @@ It comes from the [fork](https://github.com/NerYtheLonesomeHearthian/good-fox_on
 
 This script also changes the "They/Them" pronouns message from "Good bean." to "Good fox.". Keep in mind that this specific change will apply only to the version of the script in the `Zen Browser` folder.
 
-<img width="612" height="158" alt="Screenshot (001238)" src="https://github.com/user-attachments/assets/75260bd5-5a04-46bf-8343-ba53a919e14c" />
+<img width="612" height="158" alt="Good Fox example" src="https://github.com/user-attachments/assets/6908baef-d86c-4a76-a53a-1a209a14603b" />
 
 
 Here's the customizable silly emoticons:
 
-<img width="611" height="323" alt="Screenshot (001245)" src="https://github.com/user-attachments/assets/c605b2fb-1e2a-4254-aa15-0c07f898910e" />
+<img width="619" height="326" alt="Emoticon dropdown" src="https://github.com/user-attachments/assets/d7f4431d-1504-457f-8cbc-fa110d057e00" />
 
 
-<img width="609" height="154" alt="Screenshot (001239)" src="https://github.com/user-attachments/assets/36311166-7cfc-45ef-ad22-76bd8099becb" />
+<img width="612" height="156" alt="Good Fox + Hearthian ::3 example" src="https://github.com/user-attachments/assets/7a6ebe68-3472-4289-a7bb-c34d36af405b" />
+
 
 They obviously work with all pronouns:
 
-<img width="612" height="156" alt="Screenshot (001236)" src="https://github.com/user-attachments/assets/42425a40-0ec6-4e67-9e5b-45a6ecfc9273" />
+<img width="609" height="154" alt="using ::3 with other pronouns example" src="https://github.com/user-attachments/assets/ce862c9a-0236-480d-8d26-751d10e32359" />
+
 
 
 ## Below is the README, modified for the Zen installation:
@@ -85,9 +87,10 @@ Hit the green **Code** button at the top, and then **Download ZIP**
 
 ##### 2) Get to your Zen directory.
 Go to `C:/Program Files/Zen Browser/`, or `C:/Program Files (x86)/Zen Browser/`, or wherever your `zen.exe` file is located. To find it, you can search for the app in the Start menu and then click on "open file location" repeatedly until it brings you to the correct directory. Here's how:
-<img width="837" height="474" alt="Screenshot (001241)" src="https://github.com/user-attachments/assets/3e7b4cec-d49d-4783-9454-9527b0702f3f" />
+<img width="837" height="474" alt="finding Zen in start menu" src="https://github.com/user-attachments/assets/bed1e753-fc0a-46c7-976c-70e110baa09c" />
 
-<img width="622" height="44" alt="Screenshot (001242)" src="https://github.com/user-attachments/assets/d866b5d3-7580-4c4d-9556-cc85373c8163" />
+<img width="622" height="44" alt="right clicking on Zen shortcut" src="https://github.com/user-attachments/assets/333a4fb8-fe31-4885-b7b6-6a971a608cdf" />
+
   
 You then right click on the shortcut and press "open file location" once again.
 
@@ -98,9 +101,11 @@ The result should be: the `zen.cfg` file in the main `\Zen Browser` directory, r
 
 Here's an example: 
 
-<img width="638" height="295" alt="Screenshot (001244)" src="https://github.com/user-attachments/assets/3660fc18-819a-4168-a70a-9f82db863543" />
+<img width="638" height="295" alt="zen.cfg location" src="https://github.com/user-attachments/assets/4211e47a-73ab-437f-9334-73461fb35994" />
 
-<img width="653" height="190" alt="Screenshot (001243)" src="https://github.com/user-attachments/assets/3ff6cfa4-9fdb-405f-addc-b51d0cc09c83" />
+
+<img width="653" height="190" alt="autoconfig.js location" src="https://github.com/user-attachments/assets/08741336-4253-47a6-a9dc-49e4d04f6d5e" />
+
 
 ##### 4) Restart Zen.
 You can do this by completely closing the program or by going to `about:support` in a new tab and clicking on "Clear startup cache...".
