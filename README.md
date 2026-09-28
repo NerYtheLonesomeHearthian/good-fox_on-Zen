@@ -23,14 +23,19 @@ They obviously work with all pronouns:
 
 ## Instructions
 
-### Below is the revised README, modified for Zen:
-
 This is an autoconfig script for ~Firefox~ Zen that adds a silly settings panel with an equally silly effect.
 
 <img width="656" height="277" alt="Screenshot of the Firefox Browser Settings tab, with a message reading 'Firefox is your default browser. Good girl.'" src="https://github.com/user-attachments/assets/e1edcaf9-7baa-4953-8b13-bdf24ec569d5" />
 
 (Other gender affirmation options are also available in the brand new [Pronouns dropdown](#preview) in Settings)
 <hr>
+
+Here's preview, taken from the original repo:
+
+<img width="632" height="222" alt="OG REPO - Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
+<hr>
+<img width="750" alt="OG REPO - GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
+
 
 ### Installation
 This should be your guide: https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig
@@ -101,12 +106,4 @@ Most of the things you need are located in `zen.cfg`, which should end up near y
 Near the top of the file are some constants that you are free to tweak to your liking! (And you can tweak other parts of the script too, of course)\
 Most of them have comments explaining what each thing does.
 
-You can change where the Pronouns are located in settings, you can change what pronouns are available, and you can change what pronoun gives what message for the Default Browser screen.\
-
-### Preview
-
-Here are the showcase GIFs from the original repo:
-
-<img width="632" height="222" alt="Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
-<hr>
-<img width="750" alt="GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
+You can change where the Pronouns are located in settings, you can change what pronouns are available, and you can change what pronoun gives what message for the Default Browser screen.
