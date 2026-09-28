@@ -1,54 +1,8 @@
-# Good Girl
-This is an autoconfig script for Firefox that adds a silly settings panel with an equally silly effect.
-
-Below there is a revised README for installing the script on Zen.
-
-<img width="656" height="277" alt="Screenshot of the Firefox Browser Settings tab, with a message reading 'Firefox is your default browser. Good girl.'" src="https://github.com/user-attachments/assets/e1edcaf9-7baa-4953-8b13-bdf24ec569d5" />
-
-(Other gender affirmation options are also available in the brand new [Pronouns dropdown](#preview) in Settings)
-<hr>
-
-## Installation
-This should be your guide: https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig
-
-For <ins>Windows</ins>, if you have not installed or used these kinds of scripts before, it would look like this:
-- Hit the green **Code** button at the top, and then **Download ZIP**
-- Go to `C:/Program Files/Mozilla Firefox/`, or `C:/Program Files (x86)/Mozilla Firefox/`, or wherever your `firefox.exe` file is located
-- Extract the contents of the `Mozilla Firefox/` folder of the ZIP file
-- Restart Firefox
-
-And I think that should be it? (Please reach out to me if this doesn't work!)
-
-For <ins>non-Windows</ins>, you should follow the link above to get the right paths and locations for everything!
-
-And if you've previously had other scripts like this installed, you probably (hopefully) know better than me, and I hope you can figure out how to make multiple of them work simultaneously.
-
-## Configuration
-> [!CAUTION]
-> Make sure that any files you edit keep LF file endings!\
-> If a script stops working after you edited it, double check that the file endings are not set to CRLF.
-> 
-> If you are editing the file in VSCode, there will be a little thingy in the bottom-right.
-
-Most of the things you need are located in `firefox.cfg`, which should end up near your `firefox.exe` file after unpacking.\
-Near the top of the file are some constants that you are free to tweak to your liking! (And you can tweak other parts of the script too, of course)\
-Most of them have comments explaining what each thing does.
-
-You can change where the Pronouns are located in settings, you can change what pronouns are available, and you can change what pronoun gives what message for the Default Browser screen.\
-And a little extra!
-
-## Preview
-<img width="632" height="222" alt="Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
-<hr>
-<img width="750" alt="GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
-
-
 # Good Fox on Zen Browser
-This is a revised version of the README aimed at making the script immediately work with the Zen Browser. It also adds more silly emoticons customization.
 
-It comes from the [fork](https://github.com/NerYtheLonesomeHearthian/good-fox_on-Zen) made by [NerYtheLonesomeHearthian](https://github.com/NerYtheLonesomeHearthian).
+This is a fork of [quiltedhills](https://github.com/quiltedhills)' [good-girl](https://github.com/quiltedhills/good-girl) aimed at making the script immediately work with the Zen Browser. It also adds more silly emoticons customization.
 
-This script also changes the "They/Them" pronouns message from "Good bean." to "Good fox.". Keep in mind that this specific change will apply only to the version of the script in the `Zen Browser` folder.
+This script also changes the "They/Them" pronouns message from "Good bean." to "Good fox.".
 
 <img width="612" height="158" alt="Good Fox example" src="https://github.com/user-attachments/assets/6908baef-d86c-4a76-a53a-1a209a14603b" />
 
@@ -67,7 +21,9 @@ They obviously work with all pronouns:
 
 
 
-## Below is the README, modified for the Zen installation:
+## Instructions
+
+### Below is the revised README, modified for Zen:
 
 This is an autoconfig script for ~Firefox~ Zen that adds a silly settings panel with an equally silly effect.
 
@@ -146,4 +102,11 @@ Near the top of the file are some constants that you are free to tweak to your l
 Most of them have comments explaining what each thing does.
 
 You can change where the Pronouns are located in settings, you can change what pronouns are available, and you can change what pronoun gives what message for the Default Browser screen.\
-And a little extra!
+
+### Preview
+
+Here are the showcase GIFs from the original repo:
+
+<img width="632" height="222" alt="Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
+<hr>
+<img width="750" alt="GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
