@@ -2,6 +2,13 @@
 
 This is a fork of [quiltedhills](https://github.com/quiltedhills)' [good-girl](https://github.com/quiltedhills/good-girl) aimed at making the script immediately work with the Zen Browser. It also adds more silly emoticons customization.
 
+<hr>
+
+`Good Fox` is an autoconfig script for Zen that modifies the default browser message to make it sillier. It also adds a silly settings panel with an equally silly effect. Everything is configurable in settings.
+
+
+<img width="620" height="171" alt="Example of the message" src="https://github.com/user-attachments/assets/82696528-41c9-4678-8c4c-c466383eb7f7" />
+
 This script also changes the "They/Them" pronouns message from "Good bean." to "Good fox.".
 
 <img width="612" height="158" alt="Good Fox example" src="https://github.com/user-attachments/assets/6908baef-d86c-4a76-a53a-1a209a14603b" />
@@ -19,29 +26,21 @@ They obviously work with all pronouns:
 
 <img width="609" height="154" alt="using ::3 with other pronouns example" src="https://github.com/user-attachments/assets/ce862c9a-0236-480d-8d26-751d10e32359" />
 
+(Other gender affirmation options are also available in the brand new Pronouns dropdown in Settings)
 
-
-## Instructions
-
-This is an autoconfig script for ~Firefox~ Zen that adds a silly settings panel with an equally silly effect.
-
-<img width="656" height="277" alt="Screenshot of the Firefox Browser Settings tab, with a message reading 'Firefox is your default browser. Good girl.'" src="https://github.com/user-attachments/assets/e1edcaf9-7baa-4953-8b13-bdf24ec569d5" />
-
-(Other gender affirmation options are also available in the brand new [Pronouns dropdown](#preview) in Settings)
-<hr>
+<img width="628" height="264" alt="Screenshot of the Pronouns menu in Zen" src="https://github.com/user-attachments/assets/1d5bbbf7-78a2-49b3-af3a-fb90bc784e00" />
 
 Here's preview, taken from the original repo:
 
-<img width="632" height="222" alt="OG REPO - Screenshot of all settings options introduced by the script" src="https://github.com/user-attachments/assets/676e0c08-69c2-4bbb-bf91-54e612e83897" />
-<hr>
 <img width="750" alt="OG REPO - GIF showing off the Pronouns dropdown, and how it affects the Default Browser message" src="https://i.imgur.com/dnqoYt0.gif" />
 
+<hr>
 
 ### Installation
-This should be your guide: https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig
+[This](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig) should be your guide.
 
 
-#### For <ins>Windows</ins>, if you have not installed or used these kinds of scripts before, it would look like this:
+#### For <ins>Windows</ins>:
 
 ##### 1) Get the files.
 Hit the green **Code** button at the top, and then **Download ZIP**
@@ -71,11 +70,22 @@ Here's an example:
 ##### 4) Restart Zen.
 You can do this by completely closing the program or by going to `about:support` in a new tab and clicking on "Clear startup cache...".
 
-And I think that should be it? (Please reach out to me if this doesn't work!)
+#### For <ins>Linux</ins>:
 
-#### For <ins>non-Windows</ins>, you should follow the link above to get the right paths and locations for everything!
+##### 1) Get the files.
+Hit the green **Code** button at the top, and then **Download ZIP**
 
-And if you've previously had other scripts like this installed, you probably (hopefully) know better than me, and I hope you can figure out how to make multiple of them work simultaneously.
+##### 2) Place the files
+You should follow the [same link](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig) to get the right paths and locations for everything.
+
+##### 3) Restart Zen.
+You can do this by completely closing the program or by going to `about:support` in a new tab and clicking on "Clear startup cache...".
+
+##### A brief tutorial for the installation of the script on Debian-based systems is coming soon.
+
+If you've previously had other scripts like this installed, you probably already know where to put the files, and I'm sure you can figure out how to make multiple of them work simultaneously.
+
+<hr>
 
 ### Troubleshooting (if it doesn't work)
 Zen sometimes ignores new `.js` files in the `defaults\pref\` folder if it already has its own configuration files taking priority.
@@ -95,15 +105,22 @@ Save the file and restart the browser in the same way as before.
 
 If you want, delete the extra `autoconfig.js` you added earlier, it should not be necessary anymore.
 
+If it still doesn't work after you've done some troubleshooting, feel free to reach out and I'll see what i can do.
+
+<hr>
+
 ### Configuration (advanced)
+
 > [!CAUTION]
 > Make sure that any files you edit keep LF file endings!\
 > If a script stops working after you edited it, double check that the file endings are not set to CRLF.
 > 
-> If you are editing the file in VSCode, there will be a little thingy in the bottom-right.
+> If you are editing the file in VSCode, there will be a little indicator of the file ending type in use in the bottom-right.
 
-Most of the things you need are located in `zen.cfg`, which should end up near your `zen.exe` file after unpacking.\
-Near the top of the file are some constants that you are free to tweak to your liking! (And you can tweak other parts of the script too, of course)\
+Most of the things you need are located in `zen.cfg`, which will be near your `zen.exe` file after unpacking.\
+Near the top of the file are some constants that you are free to tweak to your liking! (And you can tweak other parts of the script too, of course).\
 Most of them have comments explaining what each thing does.
 
 You can change where the Pronouns are located in settings, you can change what pronouns are available, and you can change what pronoun gives what message for the Default Browser screen.
+
+### Enjoy!
